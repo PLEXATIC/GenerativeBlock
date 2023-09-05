@@ -8,20 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8f5bc992c36d596",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "ac5614cbf1cb37bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Day 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bbbdcdcfdd958ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 1.md",
+                "file": "Day 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 1.md",
+                "file": "Day 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 1.md"
+                "file": "Day 2.md"
               }
             }
           }
@@ -155,9 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac5614cbf1cb37bc",
+  "active": "4bbbdcdcfdd958ca",
   "lastOpenFiles": [
-    "2023-09-04 14-32-02.gif",
-    "Day 1.md"
+    "Day 1.md",
+    "Media/Idea Sketch.pdf",
+    "Day 2.md",
+    "Media/2023-09-05 14-43-51.gif",
+    "Media",
+    "Media/2023-09-04 14-32-02.gif"
   ]
 }

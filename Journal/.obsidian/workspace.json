@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5339b0a0ab4ba695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "9b82b759b3587013",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 2.md",
+                "file": "Day 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 2.md",
+                "file": "Day 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 2.md"
+                "file": "Day 3.md"
               }
             }
           }
@@ -159,11 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bbbdcdcfdd958ca",
+  "active": "5339b0a0ab4ba695",
   "lastOpenFiles": [
+    "Day 3.md",
+    "Media/Clocks_sketches.pdf",
+    "Day 2.md",
     "Day 1.md",
     "Media/Idea Sketch.pdf",
-    "Day 2.md",
     "Media/2023-09-05 14-43-51.gif",
     "Media",
     "Media/2023-09-04 14-32-02.gif"

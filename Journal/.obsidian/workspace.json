@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 4.md",
+                "file": "Day 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 255.5
   },
   "right": {
     "id": "9b82b759b3587013",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 4.md",
+                "file": "Day 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 4.md",
+                "file": "Day 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 4.md"
+                "file": "Day 3.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "fa47553c42647d32",
   "lastOpenFiles": [
-    "Day 3.md",
     "Day 4.md",
+    "Day 3.md",
     "Media/Clocks_sketches.pdf",
     "Day 2.md",
     "Day 1.md",

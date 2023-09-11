@@ -76,15 +76,20 @@ class CircleMachineVisualization(Visualization):
 
         relative_child = baseCircle
 
-        circle_count = 15
+        circle_count = 10
 
         for i in range(circle_count):
-            synth_child = MovingCircle(parent=relative_child, angle=0.845*np.pi + random.random()**2*0.5, radius=25 + random.random()*30, speed=np.sin(i/circle_count * np.pi * 2) + random.random()*0.01)
+            synth_child = MovingCircle(parent=relative_child, angle=0.845*np.pi + random.random()**2*1, radius=1 + (random.random()**2)*135, speed=np.sin(i/circle_count * np.pi * 2) + random.random()*0.1 - 0.05)
             relative_child.children.append(synth_child)
             relative_child = synth_child
         self.last_circle = relative_child
 
-        self.track = []
+        self.tracks = []
+        self.track_count = 5
+
+        for i in range(self.track_count):
+            self.tracks.append([])
+
         self.fps = 60
         self.debug = True
         self.circles = [baseCircle]
@@ -93,16 +98,24 @@ class CircleMachineVisualization(Visualization):
         if pg.key.get_pressed()[pg.K_d]:
             self.debug = not self.debug
 
-        self.circles[0].update(1/self.fps)
+        self.circles[0].update((1/self.fps) * 2)
         self.screen.fill((0, 0, 0))
         
         for circle in self.circles:
             if self.debug:
                 circle.draw(self.screen)
 
-        self.track.append(self.last_circle.get_swinger_position())
-        if len(self.track) > 3:
-            pg.draw.lines(self.screen, (255, 255, 255), False, self.track, 1)
+        corresponding_circle = self.last_circle
+        for i in range(0, self.track_count):
+            track = self.tracks[i]
+            track.append(corresponding_circle.get_swinger_position())
+            corresponding_circle = corresponding_circle.parent
+            if len(track) > 3:
+                h = i/self.track_count * 90
+                hsv = (h, 100, 100)
+                color = pg.Color(0, 0, 0)
+                color.hsva = hsv
+                pg.draw.lines(self.screen, color, False, track, 1)
         
     
 

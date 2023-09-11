@@ -36,4 +36,4 @@ The important thing is, that the difference between consecutive frames is small 
 If this is watched as it is right now, or slower, it can give the impression of constantly looking at an image that is not moving. But still, after every few seconds, there is a noticeable change in the image (if the video would be rescaled, it would probably take minutes to see noticeable change).
 This is a property that I really like about well-trained stylegan3 models. They can somehow make every single step in the latent space look like a perfectly good landscape, but also fit perfectly into the surrounding latent embedding (continuity).
 
-This Model unfortunately only provides a resolution of 256x256 pixels. While this is not a lot, perhaps RealESRGAN could be used to upscale these Images by 4x which would make them 1024x1024- not great, but much better already.
+This Model unfortunately only provides a resolution of 256x256 pixels. While this is not a lot, perhaps RealESRGAN could be used to upscale these Images by 4x which would make them 1024x1024- not great, but muc better already.

@@ -54,9 +54,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9a50bfa7bc207e84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e84b4d9063939b3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/collage_rot_big.png"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 3.md",
+                "file": "Day 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 3.md",
+                "file": "Day 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 3.md"
+                "file": "Day 6.md"
               }
             }
           }
@@ -183,10 +205,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa47553c42647d32",
+  "active": "9a50bfa7bc207e84",
   "lastOpenFiles": [
-    "Day 4.md",
+    "Media/collage_rot_big.png",
+    "Day 6.md",
+    "Media/collage.png",
+    "Media/collage_rot.png",
     "Day 3.md",
+    "Untitled 1",
+    "Untitled",
+    "Day 4.md",
     "Media/Clocks_sketches.pdf",
     "Day 2.md",
     "Day 1.md",

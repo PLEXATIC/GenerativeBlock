@@ -33,3 +33,9 @@ Here it is:![[collage_rot_big.png]]
 
 It's worth noting, that these images don't really explore the latent space anymore, they just use a given, arbitrary number as a random starting point...
 
+Future idea:
+Make collage using avg color of face.
+**average vs. dominant color**
+Play with sentiments and deeper meanings
+
+
